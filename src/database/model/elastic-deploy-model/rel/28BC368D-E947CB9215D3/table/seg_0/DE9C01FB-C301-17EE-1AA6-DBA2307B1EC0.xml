@@ -30,7 +30,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_SHORT_NAME_NNC</notNullConstraintName>
+<notNullConstraintName>XFSP_INTERNAL_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="NAME" id="7F36E1EA-5D03-3DDA-31BA-A4E7A2D743FE">
 <createdBy>demasy</createdBy>
@@ -67,6 +67,7 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_ACCESS_LEVEL_NNC</notNullConstraintName>
 </Column>
 <Column name="ENABLED_FLAG" id="068CD61D-C5D6-010A-430C-1395C308396F">
 <createdBy>demasy</createdBy>
@@ -530,7 +531,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XCPA_CREATION_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>XFSP_CREATION_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="CREATED_BY" id="B86743A2-5209-BE4A-9395-609648F9E66D">
 <createdBy>demasy</createdBy>
@@ -542,7 +543,7 @@
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XCPA_CREATED_BY_NNC</notNullConstraintName>
+<notNullConstraintName>XFSP_CREATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATE_LOGIN" id="E18471E6-1A06-375F-B936-2DCC4A865E88">
 <createdBy>demasy</createdBy>
@@ -554,7 +555,7 @@
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XCPA_LAST_UPDATE_LOGIN_NNC</notNullConstraintName>
+<notNullConstraintName>XFSP_LAST_UPDATE_LOGIN_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATE_DATE" id="E96657DD-9AD0-8147-F983-2EF588557D9C">
 <createdBy>demasy</createdBy>
@@ -565,7 +566,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XCPA_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>XFSP_LAST_UPDATE_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATED_BY" id="CFE3B18F-EAFF-E8D6-DDE0-5876F485A724">
 <createdBy>demasy</createdBy>
@@ -577,7 +578,7 @@
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XCPA_LAST_UPDATED_BY_NNC</notNullConstraintName>
+<notNullConstraintName>XFSP_LAST_UPDATED_BY_NNC</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -603,7 +604,7 @@
 <colUsage columnID="7F36E1EA-5D03-3DDA-31BA-A4E7A2D743FE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="43550C88-E2A9-B5F9-7AB9-1A71037093BD" name="XFSP_SHORT_NAME_UN">
+<ind_PK_UK id="43550C88-E2A9-B5F9-7AB9-1A71037093BD" name="XFSP_INTERNAL_NAME_UN">
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-05 19:40:37 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
