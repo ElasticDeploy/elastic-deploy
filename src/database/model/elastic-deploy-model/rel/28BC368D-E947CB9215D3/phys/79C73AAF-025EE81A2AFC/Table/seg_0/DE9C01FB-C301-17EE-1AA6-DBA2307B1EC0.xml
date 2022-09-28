@@ -155,7 +155,7 @@
 <createdTime>2022-09-28 19:28:01 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="SHORT_NAME" id="9488294D-750C-0AC7-C309-9DB944045DB6">
+<ColumnProxy name="INTERNAL_NAME" id="9488294D-750C-0AC7-C309-9DB944045DB6">
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-22 08:54:23 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
@@ -251,6 +251,17 @@
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="XXED_FND_SERVICE_PROVIDERS" id="796E387C-7D6E-6956-0F3E-79E6100B9DA1">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:36:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<objectName>XXED_FND_SERVICE_PROVIDERS</objectName>
+<objectUser>187A0000-0D9B-0E72-A6D7-487E2EFD8C42</objectUser>
+<user>252A6BB1-B506-5976-265F-07F4E7DD475F</user>
+<referredObjectID>DE9C01FB-C301-17EE-1AA6-DBA2307B1EC0</referredObjectID>
+</Synonym>
+</synonyms>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="XFSP_PROVIDER_ID_PK" id="67BF4EC2-8FAB-DE7C-2D95-4E7AC97AEC04">
 <createdBy>demasy</createdBy>
@@ -266,7 +277,7 @@
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </UniqueKey>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="XFSP_SHORT_NAME_UN" id="43550C88-E2A9-B5F9-7AB9-1A71037093BD">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="XFSP_INTERNAL_NAME_UN" id="43550C88-E2A9-B5F9-7AB9-1A71037093BD">
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-22 08:54:23 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
