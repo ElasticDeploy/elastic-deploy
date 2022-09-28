@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="XXED_FND_USES_TECHNOLOGIES" directorySegmentName="seg_0" id="F907BAAC-2CEB-55F0-C4F0-01E76FFDCC0C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<schemaObject>1ECBC7B7-C7D0-5EBD-728D-C054B6438123</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRIPTION" id="041A286A-7FB6-4CAC-655F-3661DEBC0F9B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TECH_USES_ID" id="15083EB0-10CC-036C-ED5F-DCD5E47BF997">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENABLED_FLAG" id="21E25B22-048F-BDE1-F474-E813462BABB8">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="358CE89A-10C6-C293-BA91-9A225037D6B9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RELEASE_VERSION" id="7023CAAE-3382-0714-AC06-DCFF84005F87">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="7C371011-F017-7495-1DC3-529A2296C675">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="AFB19D6F-0A50-670C-103F-06FBA1A8EDA0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="D1ACC063-7DB0-EB9D-238C-A42C3CC1ACFD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="DCEE49D1-A6F9-C7DB-5B28-8AB3AA2CD623">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TECHNOLOGY_ID" id="DF6FEA7B-7765-EC08-9DA8-961C7C17CB41">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="E5D03937-553D-C7E6-7480-514335E64B80">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VERSION_ID" id="E9A34409-F6B0-F491-380E-5B5B5C273AA4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_ID" id="FEED139F-2A96-345D-5D8B-55F8EFF8F867">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="XFUT_VERSION_ID_FK" id="4BB8ED2A-68B3-6403-7557-AFF51B27E072">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="XFUT_TECHNOLOGY_ID_FK" id="9F844692-4B80-86F9-D328-A4CC810994EC">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="XFUT_TECH_USES_ID_PK" id="40D4B20F-CA6C-4840-C3C9-D109B5A37837">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

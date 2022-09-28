@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6A08B66-DFFB-406F-8556-7050EC21F289" schemaObject="1ECBC7B7-C7D0-5EBD-728D-C054B6438123" name="RDF_SERVERS">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>RS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERVER_ID" id="84FD1647-E89A-F8DC-3AF4-9ECC1AA00207">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORT_NAME" id="4DD6D163-CD71-89C7-D5E3-1A2D0F94BEAD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVER_NAME" id="11388EBB-0752-5175-E370-76C5CBF55D2D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVER_IP" id="B0683CD3-4038-8753-304B-2BF014D86325">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:32:38 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVER_PORT" id="ADA9B13D-3FD3-7F3E-FCD7-EF2C65950ED3">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:33:01 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="D5D2020D-B496-4A94-901B-1D74E675A08B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="94EC1787-7457-86F1-2F50-5169D76E19FB">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED_FLAG" id="67910A10-B21F-8A5E-FCAD-B8461330D030">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RI_ENABLED_FLAG_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="FE7CEBFC-7A1C-7836-56A8-036C030E6193">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="14987040-1FDF-EBE7-3E18-E464FA412DC2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="D0E84F59-15A4-FA03-7830-C9E09E62EF10">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RI_CREATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="CREATION_DATE" id="8C0802F0-85BB-BB4C-5A0F-D09AC7E9702D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RI_CREATION_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATED_BY" id="CBEF39CB-65CC-814F-2E45-41E9AD60AE3C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RI_LAST_UPDATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="E2AC6A59-EFBF-EC2E-17CA-2D3744F9F35C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RI_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="9AE83E48-5543-D8A5-7B4C-6D065B7C6D82">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RI_OBJECT_VERSION_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6FB1134-E08F-1F6D-35B1-01A5478229D0" name="RI_INSTANCE_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 18:30:08 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84FD1647-E89A-F8DC-3AF4-9ECC1AA00207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

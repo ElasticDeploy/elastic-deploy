@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE9C01FB-C301-17EE-1AA6-DBA2307B1EC0" schemaObject="1ECBC7B7-C7D0-5EBD-728D-C054B6438123" name="XXED_FND_SERVICE_PROVIDERS">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:11:37 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>XFSP</abbreviation>
+<isEngineerToRelation>true</isEngineerToRelation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROVIDER_ID" id="2E24C1E6-DC9C-C79F-B507-ECF1280ACFFD">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:14:31 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_PROVIDER_ID_NNC</notNullConstraintName>
+</Column>
+<Column name="SHORT_NAME" id="9488294D-750C-0AC7-C309-9DB944045DB6">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:14:31 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_SHORT_NAME_NNC</notNullConstraintName>
+</Column>
+<Column name="NAME" id="7F36E1EA-5D03-3DDA-31BA-A4E7A2D743FE">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:17:55 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_NAME_NNC</notNullConstraintName>
+</Column>
+<Column name="DESCRIPTION" id="46F10876-72D2-AD1B-BBE7-B05FDD4B34D4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:20:42 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCESS_LEVEL" id="7BD0280A-1675-19E4-079E-7A417CACE817">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 20:11:31 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED_FLAG" id="068CD61D-C5D6-010A-430C-1395C308396F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:17:55 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_ENABLED_FLAG_NNC</notNullConstraintName>
+</Column>
+<Column name="START_DATE" id="19C3C8F8-1C11-C5AB-91A4-DB1A34673D50">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:20:42 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_START_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="END_DATE" id="A4E70A18-1C7B-6D1E-0388-96A7D8D4816C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:20:42 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="47D0D629-6473-6469-AEFA-D7C3AB9300C7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:20:42 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_CREATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="CREATION_DATE" id="ECB2376C-E58F-B430-45B4-AF3052CA17C4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:20:43 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_CREATION_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATED_BY" id="37DD2E90-36B5-29EF-FBD9-C8C7413DC265">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:20:43 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_LAST_UPDATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="0687E532-FCC6-155A-C606-A6E425893642">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:20:43 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="AC691ED9-54DC-8DFA-36D7-04B60638607C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:20:43 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_OBJECT_VERSION_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67BF4EC2-8FAB-DE7C-2D95-4E7AC97AEC04" name="XFSP_PROVIDER_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:14:31 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E24C1E6-DC9C-C79F-B507-ECF1280ACFFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="171BCA70-D6DF-312D-FC32-8A6740B7E91B" name="XFSP_NAME_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:40:22 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F36E1EA-5D03-3DDA-31BA-A4E7A2D743FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43550C88-E2A9-B5F9-7AB9-1A71037093BD" name="XFSP_SHORT_NAME_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:40:37 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9488294D-750C-0AC7-C309-9DB944045DB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
