@@ -5,6 +5,7 @@
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
 <ordsAlias>table_3</ordsAlias>
 <abbreviation>XFP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
 <isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -35,19 +36,7 @@
 <colAssociation fkAssociation="60E7F440-EB31-4C5F-0410-C5BB59E52C6D" referredColumn="2E24C1E6-DC9C-C79F-B507-ECF1280ACFFD"/>
 </associations>
 </Column>
-<Column name="ACCESS_LEVEL" id="C3C4F765-2CC5-2795-50B6-D744B64A6DD8">
-<createdBy>demasy</createdBy>
-<createdTime>2019-09-05 20:11:41 UTC</createdTime>
-<ownerDesignName>elastic-deploy-model</ownerDesignName>
-<constraintName>RP_ENABLED_FLAG_CK</constraintName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="SHORT_NAME" id="38D3C0E4-21D4-CD10-96B7-5E0789CE41F4">
+<Column name="INTERNAL_NAME" id="38D3C0E4-21D4-CD10-96B7-5E0789CE41F4">
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-05 17:25:32 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
@@ -57,17 +46,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>XFP_SHORT_NAME_NNC</notNullConstraintName>
-</Column>
-<Column name="CODE" id="ECB04006-B548-CB58-AC84-1B6E62FB93B1">
-<createdBy>demasy</createdBy>
-<createdTime>2019-09-05 17:27:11 UTC</createdTime>
-<ownerDesignName>elastic-deploy-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFP_CODE_NNC</notNullConstraintName>
 </Column>
 <Column name="NAME" id="C8A77C13-6FFB-8A4A-BC46-36D956B4820F">
 <createdBy>demasy</createdBy>
@@ -80,10 +58,34 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>XFP_NAME_NNC</notNullConstraintName>
 </Column>
+<Column name="CODE" id="ECB04006-B548-CB58-AC84-1B6E62FB93B1">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:27:11 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFP_CODE_NNC</notNullConstraintName>
+</Column>
 <Column name="DESCRIPTION" id="60ED06D0-AFDC-80C2-6A91-708055E3E996">
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-05 17:25:32 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCESS_LEVEL" id="C3C4F765-2CC5-2795-50B6-D744B64A6DD8">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 20:11:41 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

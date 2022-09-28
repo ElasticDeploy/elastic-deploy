@@ -81,6 +81,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="SYNTAX" id="EA618655-9C16-645F-9FE3-4661496D17EE">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 19:59:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ENABLED_FLAG" id="4F88F59C-121F-B508-36F4-ADDDCCD73B75">
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-05 20:28:40 UTC</createdTime>

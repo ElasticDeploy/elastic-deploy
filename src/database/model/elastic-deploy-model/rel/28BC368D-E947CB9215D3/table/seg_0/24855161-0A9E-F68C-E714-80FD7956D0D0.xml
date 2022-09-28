@@ -59,6 +59,17 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>XFP_SHORT_NAME_NNC</notNullConstraintName>
 </Column>
+<Column name="SYNTAX" id="41261C08-A347-5BFA-6BDE-7C38E0C995FC">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 20:00:01 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="MAX_LENGTH" id="71DD0015-3700-5F8D-3BD9-0564B2F7A609">
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-22 13:08:47 UTC</createdTime>
