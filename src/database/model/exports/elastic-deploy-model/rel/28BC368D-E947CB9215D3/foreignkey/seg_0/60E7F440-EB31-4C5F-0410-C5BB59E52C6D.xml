@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="60E7F440-EB31-4C5F-0410-C5BB59E52C6D" containerWithKeyObject="0FEA7F99-145B-B317-D388-6CCD36569FF1" localFKIndex="EBE65B67-CA7C-5545-ABDD-D1A48CF52D8B" name="XFP_PROVIDER_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 20:17:44 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<referredTableLongName>XXED.XXED_FND_SERVICE_PROVIDERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE9C01FB-C301-17EE-1AA6-DBA2307B1EC0</referredTableID>
+<keyObject>67BF4EC2-8FAB-DE7C-2D95-4E7AC97AEC04</keyObject>
+<referredKeyID>67BF4EC2-8FAB-DE7C-2D95-4E7AC97AEC04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PROVIDER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

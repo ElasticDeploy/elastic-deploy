@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Elastic Deploy" id="28BC368D-BEB8-C1CD-2400-E947CB9215D3" mainViewID="125AB55B-7FDA-4954-A61A-2633FC14E3F0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:09:37 UTC</createdTime>
+<comment><![CDATA[Elastic Deploy ~ By Ahmed El-Demasy]]></comment>
+<notes><![CDATA[Elastic Deploy ~ By Ahmed El-Demasy]]></notes>
+<ownerDesignName>DEVOPS_FRAMEWORK</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<redirectConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>ORCLVM-RDF@ORCL</connName>
+<connUser>RDF</connUser>
+<connType>1</connType>
+<syncSelected>-1</syncSelected>
+</redirectConnectionStamp>
+<useConnectionUser>true</useConnectionUser>
+</relationalModel>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="XXED" directorySegmentName="seg_0" id="187A0000-0D9B-0E72-A6D7-487E2EFD8C42">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 11:54:21 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<identifier>05D5412ABD7A010CB9D67B757363E954C6</identifier>
+</UserOraclev10g>
