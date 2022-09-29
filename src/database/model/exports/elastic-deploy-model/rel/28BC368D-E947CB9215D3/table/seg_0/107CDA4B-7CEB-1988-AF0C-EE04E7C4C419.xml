@@ -4,8 +4,8 @@
 <createdTime>2019-09-05 20:28:40 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
 <ordsAlias>table_3</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
 <abbreviation>XFO</abbreviation>
-<allowColumnReorder>false</allowColumnReorder>
 <isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -40,25 +40,25 @@
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-22 12:45:37 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_XXUI_LC_DOCUMENT_TYPES_DOCUMENT_ID</notNullConstraintName>
+<notNullConstraintName>XFO_PARENT_ID_NNC</notNullConstraintName>
 </Column>
-<Column name="SYNTAX" id="EA618655-9C16-645F-9FE3-4661496D17EE">
+<Column name="ACCESS_LEVEL" id="A555D662-ED37-AB4E-F807-F67A3920EE51">
 <createdBy>demasy</createdBy>
-<createdTime>2022-09-28 19:59:13 UTC</createdTime>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4000 BYTE</dataTypeSize>
-<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFO_ACCESS_LEVEL_NNC</notNullConstraintName>
 </Column>
 <Column name="INTERNAL_NAME" id="82AED96F-6D89-D2C5-082B-DDC49C24E4C7">
 <createdBy>demasy</createdBy>
@@ -70,7 +70,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_INTERNAL_NAME_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_INTERNAL_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="NAME" id="D7ACA588-21C0-19EB-5E38-C962729223A1">
 <createdBy>demasy</createdBy>
@@ -82,7 +82,7 @@
 <dataTypeSize>200 BYTE</dataTypeSize>
 <ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_NAME_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_NAME_NNC</notNullConstraintName>
 </Column>
 <Column name="DESCRIPTION" id="86325CD8-398A-B72A-F3EE-39B4826F58C8">
 <createdBy>demasy</createdBy>
@@ -96,18 +96,42 @@
 <ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ACCESS_LEVEL" id="A555D662-ED37-AB4E-F807-F67A3920EE51">
+<Column name="REQUIRED_SCHEMA" id="3B7A905E-5EED-E21C-A651-61CC01155BEE">
 <createdBy>demasy</createdBy>
-<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<createdTime>2022-09-29 18:07:23 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
-<constraintName>RP_ENABLED_FLAG_CK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_ACCESS_LEVEL_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_REQUIRED_SCHEMA_NNC</notNullConstraintName>
+</Column>
+<Column name="DB_SCHEMA_CODE" id="BAEA963D-DF15-A259-F6EE-6A68806C5FF1">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-29 18:07:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_INTERNAL_NAME_NNC</notNullConstraintName>
+</Column>
+<Column name="NAMING_SYNTAX" id="EA618655-9C16-645F-9FE3-4661496D17EE">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 19:59:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ENABLED_FLAG" id="A2F50F48-7C99-CB58-C13A-3E96F72BBDC9">
 <createdBy>demasy</createdBy>
@@ -120,7 +144,7 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_ENABLED_FLAG_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_ENABLED_FLAG_NNC</notNullConstraintName>
 </Column>
 <Column name="START_DATE" id="5EE31131-A694-1499-A685-8D43F9948918">
 <createdBy>demasy</createdBy>
@@ -131,7 +155,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_START_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_START_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="END_DATE" id="455EA7B0-389F-C54E-3082-39FE4F640E7F">
 <createdBy>demasy</createdBy>
@@ -571,7 +595,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_CREATION_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_CREATION_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="CREATED_BY" id="BC3666E3-35FC-F13C-7626-C174EF25D8E6">
 <createdBy>demasy</createdBy>
@@ -583,7 +607,7 @@
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_CREATED_BY_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_CREATED_BY_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATE_LOGIN" id="9A3A9DC3-497D-A143-7400-ABD540B1EF4A">
 <createdBy>demasy</createdBy>
@@ -595,7 +619,7 @@
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_LAST_UPDATE_LOGIN_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_LAST_UPDATE_LOGIN_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATE_DATE" id="57A787CB-279C-C8B5-78A8-2CA3ACEE45B7">
 <createdBy>demasy</createdBy>
@@ -606,7 +630,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_LAST_UPDATE_DATE_NNC</notNullConstraintName>
 </Column>
 <Column name="LAST_UPDATED_BY" id="EA4E5407-9586-E7B8-EFFD-9A31DA6C6381">
 <createdBy>demasy</createdBy>
@@ -618,7 +642,7 @@
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_LAST_UPDATED_BY_NNC</notNullConstraintName>
+<notNullConstraintName>XFO_LAST_UPDATED_BY_NNC</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

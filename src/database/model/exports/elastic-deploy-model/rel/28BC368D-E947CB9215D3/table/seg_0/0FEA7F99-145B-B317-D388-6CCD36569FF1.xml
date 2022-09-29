@@ -4,8 +4,8 @@
 <createdTime>2019-09-05 17:24:44 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
 <ordsAlias>table_3</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
 <abbreviation>XFP</abbreviation>
-<allowColumnReorder>false</allowColumnReorder>
 <isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -35,6 +35,19 @@
 <associations>
 <colAssociation fkAssociation="60E7F440-EB31-4C5F-0410-C5BB59E52C6D" referredColumn="2E24C1E6-DC9C-C79F-B507-ECF1280ACFFD"/>
 </associations>
+</Column>
+<Column name="ACCESS_LEVEL" id="F541BF35-BFBF-06FB-E96A-8DB0581E9EEC">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:06:52 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFP_ACCESS_LEVEL_NNC</notNullConstraintName>
 </Column>
 <Column name="INTERNAL_NAME" id="553D30B8-669E-08C1-7342-9D6A5ECEB7C3">
 <createdBy>demasy</createdBy>
@@ -71,19 +84,6 @@
 <dataTypeSize>4000 BYTE</dataTypeSize>
 <ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ACCESS_LEVEL" id="F541BF35-BFBF-06FB-E96A-8DB0581E9EEC">
-<createdBy>demasy</createdBy>
-<createdTime>2022-09-28 21:06:52 UTC</createdTime>
-<ownerDesignName>elastic-deploy-model</ownerDesignName>
-<constraintName>RP_ENABLED_FLAG_CK</constraintName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFP_ACCESS_LEVEL_NNC</notNullConstraintName>
 </Column>
 <Column name="ENABLED_FLAG" id="01E8AA38-3119-9BBC-6409-875A71735F4B">
 <createdBy>demasy</createdBy>
@@ -607,6 +607,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="759744EC-152D-326F-C2EB-6AD01F11B1AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B45E057-8668-EE5C-8023-BDB15FC02861" name="XFP_INTERNAL_NAME_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-29 19:21:07 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="553D30B8-669E-08C1-7342-9D6A5ECEB7C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFF2E706-FFAD-55E7-AFEB-8552359F0387" name="XFP_NAME_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-29 19:21:07 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1518AB4-2E61-70C3-92B0-F8F4EAE85D40"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="EBE65B67-CA7C-5545-ABDD-D1A48CF52D8B" name="XFP_PROVIDER_ID_FK">

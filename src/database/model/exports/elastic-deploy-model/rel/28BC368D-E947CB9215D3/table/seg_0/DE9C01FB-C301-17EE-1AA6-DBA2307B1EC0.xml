@@ -4,6 +4,7 @@
 <createdTime>2019-09-05 17:11:37 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
 <ordsAlias>table_1</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
 <abbreviation>XFSP</abbreviation>
 <isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -19,6 +20,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>XFSP_PROVIDER_ID_NNC</notNullConstraintName>
+</Column>
+<Column name="ACCESS_LEVEL" id="7BD0280A-1675-19E4-079E-7A417CACE817">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 20:11:31 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_ACCESS_LEVEL_NNC</notNullConstraintName>
 </Column>
 <Column name="INTERNAL_NAME" id="9488294D-750C-0AC7-C309-9DB944045DB6">
 <createdBy>demasy</createdBy>
@@ -55,19 +69,6 @@
 <dataTypeSize>4000 BYTE</dataTypeSize>
 <ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ACCESS_LEVEL" id="7BD0280A-1675-19E4-079E-7A417CACE817">
-<createdBy>demasy</createdBy>
-<createdTime>2019-09-05 20:11:31 UTC</createdTime>
-<ownerDesignName>elastic-deploy-model</ownerDesignName>
-<constraintName>RP_ENABLED_FLAG_CK</constraintName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFSP_ACCESS_LEVEL_NNC</notNullConstraintName>
 </Column>
 <Column name="ENABLED_FLAG" id="068CD61D-C5D6-010A-430C-1395C308396F">
 <createdBy>demasy</createdBy>
@@ -597,7 +598,6 @@
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-05 19:40:22 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -608,7 +608,6 @@
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-05 19:40:37 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

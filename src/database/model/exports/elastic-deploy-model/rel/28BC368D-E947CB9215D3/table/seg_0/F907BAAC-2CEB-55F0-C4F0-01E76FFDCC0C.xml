@@ -4,8 +4,8 @@
 <createdTime>2019-09-05 20:42:52 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
 <ordsAlias>table_14</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
 <abbreviation>XFUT</abbreviation>
-<allowColumnReorder>false</allowColumnReorder>
 <isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -50,6 +50,19 @@
 <colAssociation fkAssociation="539241AC-15F7-07BB-E3EF-F4904A852379" referredColumn="6F2396F0-E653-A1DC-2BFA-F1C7B2B131B0"/>
 </associations>
 </Column>
+<Column name="ACCESS_LEVEL" id="1DCE47DA-04D7-A670-E0C1-D3D3569B1D7F">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:12:35 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFUT_ACCESS_LEVEL_NNC</notNullConstraintName>
+</Column>
 <Column name="RELEASE_VERSION" id="7023CAAE-3382-0714-AC06-DCFF84005F87">
 <createdBy>demasy</createdBy>
 <createdTime>2019-09-05 20:46:21 UTC</createdTime>
@@ -72,19 +85,6 @@
 <dataTypeSize>4000 BYTE</dataTypeSize>
 <ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ACCESS_LEVEL" id="1DCE47DA-04D7-A670-E0C1-D3D3569B1D7F">
-<createdBy>demasy</createdBy>
-<createdTime>2022-09-28 21:12:35 UTC</createdTime>
-<ownerDesignName>elastic-deploy-model</ownerDesignName>
-<constraintName>RP_ENABLED_FLAG_CK</constraintName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFUT_ACCESS_LEVEL_NNC</notNullConstraintName>
 </Column>
 <Column name="ENABLED_FLAG" id="BD292D3C-E8E8-FB35-6DF4-891E177BCA44">
 <createdBy>demasy</createdBy>

@@ -4,6 +4,7 @@
 <createdTime>2019-09-05 20:56:27 UTC</createdTime>
 <ownerDesignName>elastic-deploy-model</ownerDesignName>
 <ordsAlias>table_14</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
 <abbreviation>XFT</abbreviation>
 <isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -19,6 +20,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>XFT_TECHNOLOGY_ID_NNC</notNullConstraintName>
+</Column>
+<Column name="ACCESS_LEVEL" id="EF8565C6-3082-7A70-FFBD-5AB22756D0A1">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFT_ACCESS_LEVEL_NNC</notNullConstraintName>
 </Column>
 <Column name="INTERNAL_NAME" id="D1BF4A58-35FC-9A14-A361-5365BA03A7B3">
 <createdBy>demasy</createdBy>
@@ -55,19 +69,6 @@
 <dataTypeSize>4000 BYTE</dataTypeSize>
 <ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ACCESS_LEVEL" id="EF8565C6-3082-7A70-FFBD-5AB22756D0A1">
-<createdBy>demasy</createdBy>
-<createdTime>2022-09-28 21:17:13 UTC</createdTime>
-<ownerDesignName>elastic-deploy-model</ownerDesignName>
-<constraintName>RP_ENABLED_FLAG_CK</constraintName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>XFT_ACCESS_LEVEL_NNC</notNullConstraintName>
 </Column>
 <Column name="ENABLED_FLAG" id="D3B26E9D-C5AA-AE31-F194-E1D3734CA84C">
 <createdBy>demasy</createdBy>
@@ -591,6 +592,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6F2396F0-E653-A1DC-2BFA-F1C7B2B131B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA756BB3-E770-4B77-D37F-5FE52388F4D4" name="XFT_INTERNAL_NAME_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-29 19:23:52 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1BF4A58-35FC-9A14-A361-5365BA03A7B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9649AFC8-D704-8224-1A28-C4A4C3760AC9" name="XFT_NAME_UN">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-29 19:23:57 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B04FB994-93FE-AC4F-8C3C-700027BAD51A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

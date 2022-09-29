@@ -259,4 +259,18 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="XFT_NAME_UN" id="9649AFC8-D704-8224-1A28-C4A4C3760AC9">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-29 19:23:57 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="XFT_INTERNAL_NAME_UN" id="EA756BB3-E770-4B77-D37F-5FE52388F4D4">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-29 19:23:52 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
 </TableProxyOraclev12c>

@@ -271,4 +271,18 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="XFPV_NAME_UN" id="0F10FF19-23D3-7380-E14E-4B63B8501485">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-29 19:18:57 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="XFPV_INTERNAL_NAME_UN" id="ED676B9A-442E-27D6-9229-B5FFF5B2A884">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-29 19:18:57 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
 </TableProxyOraclev12c>
