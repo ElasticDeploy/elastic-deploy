@@ -1,0 +1,68 @@
+# +=======================================================================+
+# |    Copyright (c) 1994 Oracle Corporation Redwood Shores, CA USA       |
+# |                         All rights reserved.                          |
+# +=======================================================================+
+# | FILENAME                                                              |
+# |     xxedterr.txt                                                       |
+# | $Header: xxedterr.txt 120.1 2006/09/20 15:54:52 jaobrien noship $
+# |                                                                       |
+# | DESCRIPTION                                                           |
+# |     Appliation Autopatch territory description file for now           |
+# |     it only contains a list of possible languages                     |
+# |                                                                       |
+# | NOTES                                                                 |
+# |     All comment lines must begin with a #.                            |
+# | HISTORY                                                               |
+# |     kkhokhar    05/18/04  Created                                     |
+# |     mcasalgr    12-sep-05  internal revision                          |
+# +=======================================================================+
+#
+%%% Single-product territory data file format 12.0.A
+#
+# Release abbreviation
+# 10.7 - R1107, 11.0 = R11.0.28, 11.5 = R115
+R120
+#
+# ###############################################################
+# LIST OF LANGUAGE INFO
+# ###############################################################
+#
+# See applterr.txt for more info on what the fields for a language mean
+#
+# You should specify the product's name in American English
+#
+# You do not need to include records for other languages unless you need to
+# specify the product's name in other languages
+#
+# ############################
+#
+# language id, shortname, codes and names
+0 usaeng US     AMERICAN                EN US American_English
+# appltape filename, appltape filename for loc. products, codeset
+appltape.txt            appltape.txt                    WE8ISO8859P1
+# signon translated, standard dg name, other dg prefix
+Yes                     Standard        Data_Group
+# products that have dnls.drv files
+none
+# products that have bnls.drv files
+none
+# products that have fnls.drv files
+none
+# products that have GV dnls.drv files
+none
+# products that have GV fnls.drv files
+none
+# product names in this language
+c       xxed     Elastic_Deploy
+END_OF_PRODUCT_NAMES
+#
+# You may specify info for other languages here, but usually you will
+# not need to do this.
+#
+END_OF_LANGUAGE_INFO
+#
+# #################################################################
+# end of xxedterr.txt file
+# #################################################################
+
+

@@ -1,0 +1,119 @@
+# +=======================================================================+
+# |    Copyright (c) 1992 Oracle Corporation Redwood Shores, CA USA       |
+# |                         All rights reserved.                          |
+# +=======================================================================+
+# | FILENAME                                                              |
+# |     xxedprod.txt                                       |
+# | $Header: xxedprod.txt 120.1 2006/09/20 15:57:48 jaobrien noship $
+# |                                                                       |
+# | DESCRIPTION                                                           |
+# |     Common product description file.                                  |
+# |                                                                       |
+# | NOTES                                                                 |
+# |     All comment lines must begin with a #.                            |
+# |     This file is changed with each release.                           |
+# | HISTORY                                                               |
+# |     05/18/04  kkhokhar      created                                   |
+# |     12-sep-05 mcasalgr      internal revision                         | 
+# +=======================================================================+
+#
+# ##################################################
+# file format id (should begin with "%%%")
+# ##################################################
+%%% Single-product product data file format 12.0.A
+#
+# ##################################################
+# LIST OF PRODUCT ABBREVIATIONS and the corresponding application ids.
+# This list lets you forward-reference the abbreviations of shared products.
+# This list should match the official correspondence between id and
+# abbreviation, given for each product in the Product List.
+# ##################################################
+#
+# Product specific Product ID's
+xxed     1311 
+
+END_OF_PRODUCT_ABBREVIATIONS   -999
+#
+# ##################################################
+# Oracle Support Diagnostic Tools
+# ##################################################
+#
+# application id, abbreviation, shortname, prefix
+1311 xxed XXED APP 
+# multiple product installations for msob, "controlled release", shared only
+#   optional fourth field is "stub product".  default is No
+No No No No
+# multilingual, has NLADD.sql
+Yes Yes
+# install oracle id, default ORACLE username, default ORACLE password
+1311 XXED XXED 
+# concurrent conflict set id (logical database id)
+0
+# minimum version you can upgrade from, for shared and for fully-installed
+1.0.0 1.0.0
+# shared products
+# FND, AK, AX and AZ are required for this section
+# For example: 
+#   fnd ak ax az gl inv po ap fa ar oe as per pay mfg bom eng mrp crp wip pa 
+# If you list a product in the set-to-install or required-as-installed 
+# sections below, you MUST also list the product as a shared product 
+# fnd ak ax az
+none
+# product libraries needed for "make -f <product>.mk all"
+# For example: fnd alr gl rg
+none
+# when install this product, set these other products to install
+# This is the set-to-install section 
+# AK, AX and AZ are required for this section 
+# For example: ak ax az rg 
+# This section must exactly match the required-as-installed section 
+# ak ax az 
+none
+# requires that these other products are fully installed or installing
+# This is the required-as-installed section 
+# AK, AX and AZ are required for this section 
+# For example: ak ax az rg 
+# This section must exactly match the set-to-install section 
+# ak ax az 
+none
+# 
+# ##################################################
+# END OF PRODUCT LIST
+# ##################################################
+#
+END_OF_PRODUCTS
+#
+# ##################################################
+# START OF RELEASE LIST
+# ##################################################
+# For each release, the products should be listed in install/upgrade order.
+# FND should always be listed first in the release.
+#
+# The first release listed should be the lowest release
+# we support upgrading from (e.g. release 10.5.0 for MPL 10)
+# AutoInstall will stop if a product version is lower than the lowest release.
+# AutoInstall will assume that if a product version is at the lowest release,
+# then it can be upgraded to the current release.
+# 
+# 
+# ##################################################
+# Release 12.0.0
+# ##################################################
+#
+# release name, for use by AutoInstall only
+Release 12.0.0
+# release version, for FND_PRODUCT_GROUPS and the \ Help Version feature.
+# this value should not contain any English.
+12.0.0
+# release abbreviation, rename prefix, release type
+R120    R120_    additional-this-mpl
+# list of products and versions
+XXED     12.0.0
+END_OF_RELEASE  0.0.0
+#
+#
+# #################################################################
+# end of xxedprod.txt file
+# #################################################################
+#
+

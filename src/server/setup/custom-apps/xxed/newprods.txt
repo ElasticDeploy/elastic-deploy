@@ -1,0 +1,18 @@
+%%% Splicer control file format 12.0.A
+#
+# $Header: newprods.txt 120.1 2006/09/20 12:57:45 jaobrien noship $
+#
+#
+# Section for Oracle Support Diagnostic Tools
+
+product=xxed
+base_product_top=*APPL_TOP*
+oracle_schema=xxed
+sizing_factor=100
+main_tspace=APPS_TS_TX_DATA
+index_tspace=APPS_TS_TX_IDX
+temp_tspace=TEMP
+default_tspace=APPS_TS_TX_DATA
+
+# end of Oracle Support Diagnostic Tools
+
