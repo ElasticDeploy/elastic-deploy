@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="XXED" directorySegmentName="seg_0" id="1ECBC7B7-C7D0-5EBD-728D-C054B6438123">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 17:11:02 UTC</createdTime>
+<ownerDesignName>DEVOPS_FRAMEWORK</ownerDesignName>
+<ordsAlias>schema_1</ordsAlias>
+</SchemaObject>

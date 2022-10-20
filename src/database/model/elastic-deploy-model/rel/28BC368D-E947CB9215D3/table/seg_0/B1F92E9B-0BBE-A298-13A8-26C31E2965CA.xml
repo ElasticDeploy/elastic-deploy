@@ -1,0 +1,246 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1F92E9B-0BBE-A298-13A8-26C31E2965CA" schemaObject="1ECBC7B7-C7D0-5EBD-728D-C054B6438123" name="RDF_USERS">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:01:52 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>RU</abbreviation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="99F2CA3E-2965-FB81-5300-407CF00C04EF">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>UM_USER_ID_S</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="USER_TYPE_ID" id="A11D03D3-FFE4-62D1-3CB9-1381C2D78130">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>UM_USER_ID_S</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="USER_NAME" id="D3A86792-6AAD-0991-58D4-79C89D152F5D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<defaultLabel>User Name</defaultLabel>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="625789A1-E99D-049E-9E5C-7454FFD1A9AE">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<defaultLabel>Password</defaultLabel>
+<maskingType>FULL</maskingType>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENCRYPTED_PASSWORD" id="5E81996C-D577-8D2E-9048-32058EE272B9">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<defaultLabel>Password</defaultLabel>
+<maskingType>FULL</maskingType>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PWD_EXPIRATION_DATE" id="4120D2FE-5B37-DC56-12D5-AA95721A30A7">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_ADDRESS" id="BC72A494-2E25-9A8A-9AA0-BC17D65B00E4">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="8B056146-38AA-EE54-10BA-4CCB67877B70">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED_FLAG" id="1B893F8C-439E-5932-6051-4C475CA5FCA8">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<defaultValue>Y</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultdisplayAs>Checkbox</defaultdisplayAs>
+<defaultLabel>Enable Flag</defaultLabel>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOLD_FLAG" id="31E57C35-6FAD-D915-314B-6EA333D18A25">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCK_FLAG" id="4E14C86A-CED0-E0C1-F227-FA5C42F5E887">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<defaultValue>Y</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultdisplayAs>Checkbox</defaultdisplayAs>
+<defaultLabel>Enable Flag</defaultLabel>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="9DDC17DD-AA59-71D9-9806-8D49259A4F9C">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="70C74B86-F13B-5B57-CF85-F1D735C268F2">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="132C0502-8C82-F576-BE8D-B85FA3A83C54">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="692F07CB-5734-BEAA-483A-E5C0334E7025">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="29DDF4DB-D94C-7AAB-44C0-56293AB06CF0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="F6487D95-31BB-87D9-D6EE-C6E3DCADC45F">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_ID" id="F43C4AD3-DF38-D275-0FB2-8C2C5573B953">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:10:50 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>UPI_INVENTORY_ID_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1734837C-5176-0FB6-36A6-CB5850DAEA24" name="RU_USER_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 19:15:40 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99F2CA3E-2965-FB81-5300-407CF00C04EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
