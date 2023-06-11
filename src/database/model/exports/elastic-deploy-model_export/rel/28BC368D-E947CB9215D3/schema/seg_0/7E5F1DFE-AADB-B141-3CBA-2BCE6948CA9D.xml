@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="APPS" directorySegmentName="seg_0" id="7E5F1DFE-AADB-B141-3CBA-2BCE6948CA9D">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 18:38:12 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<ordsAlias>schema_2</ordsAlias>
+</SchemaObject>

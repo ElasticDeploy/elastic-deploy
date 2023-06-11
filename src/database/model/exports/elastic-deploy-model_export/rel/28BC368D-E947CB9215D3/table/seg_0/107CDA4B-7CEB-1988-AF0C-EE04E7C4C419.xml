@@ -1,0 +1,647 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="107CDA4B-7CEB-1988-AF0C-EE04E7C4C419" schemaObject="1ECBC7B7-C7D0-5EBD-728D-C054B6438123" name="XXED_FND_OBJECTS">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 20:28:40 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>XFO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OBJECT_ID" id="1C5032DF-3439-3B53-BB6B-DF2AC5FD156D">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 20:28:40 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFO_OBJECT_ID_NNC</notNullConstraintName>
+</Column>
+<Column name="TECH_USES_ID" id="4CBD68C0-62FE-2EC3-659B-248DE6252BEF">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 21:06:19 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFO_TECH_USES_ID_NNC</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="3EBBAB90-0C30-63D2-16F7-13C99D1609FC" referredColumn="15083EB0-10CC-036C-ED5F-DCD5E47BF997"/>
+</associations>
+</Column>
+<Column name="PARENT_ID" id="8DE81FA4-7DA4-90E6-90F6-F4B6F224078B">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 12:45:37 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_XXUI_LC_DOCUMENT_TYPES_DOCUMENT_ID</notNullConstraintName>
+</Column>
+<Column name="SYNTAX" id="EA618655-9C16-645F-9FE3-4661496D17EE">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 19:59:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTERNAL_NAME" id="82AED96F-6D89-D2C5-082B-DDC49C24E4C7">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_INTERNAL_NAME_NNC</notNullConstraintName>
+</Column>
+<Column name="NAME" id="D7ACA588-21C0-19EB-5E38-C962729223A1">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_NAME_NNC</notNullConstraintName>
+</Column>
+<Column name="DESCRIPTION" id="86325CD8-398A-B72A-F3EE-39B4826F58C8">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCESS_LEVEL" id="A555D662-ED37-AB4E-F807-F67A3920EE51">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_ACCESS_LEVEL_NNC</notNullConstraintName>
+</Column>
+<Column name="ENABLED_FLAG" id="A2F50F48-7C99-CB58-C13A-3E96F72BBDC9">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<constraintName>RP_ENABLED_FLAG_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_ENABLED_FLAG_NNC</notNullConstraintName>
+</Column>
+<Column name="START_DATE" id="5EE31131-A694-1499-A685-8D43F9948918">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_START_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="END_DATE" id="455EA7B0-389F-C54E-3082-39FE4F640E7F">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_NUMBER" id="170765DC-207F-2825-52D3-E4CD6455A775">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUEST_ID" id="8E50A008-41DF-34D1-D9A2-D6F1BF70147B">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_APPLICATION_ID" id="B15399CD-F406-DE5F-83B5-9794E7A66334">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_ID" id="393F3BDF-6A7A-465A-BE2F-AF770C45F100">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_UPDATE_DATE" id="A35279FC-08FF-4D3C-722D-04938FB96E07">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE_CATEGORY" id="43A17F2B-2BD0-A198-E9B9-48406AE44E0E">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE1" id="3CFBA8A2-9D40-935E-A486-D3FB8830AC43">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE2" id="ED190D2E-5E34-CAB3-320E-2D616C36C4A0">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE3" id="A6210DA9-9994-05DE-4AB6-CDBBF51A00F1">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE4" id="374EF20D-E09B-F564-9817-3DC0D27B3A1C">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE5" id="81FDA070-E7F3-9B8B-E5D3-93D2C5FCE71A">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE6" id="57F8974C-E286-517D-E900-401AFA7CC0B4">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE7" id="E1B5B023-49E8-960E-A6D0-2EB9BB202EBE">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE8" id="9BFDEF3C-90DE-D184-6E8A-1888875D3E27">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE9" id="6976E9C5-E4E4-23AB-39BF-D9BD422ADD5A">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE11" id="5BEA9724-61DA-E0BA-6D12-3CDA1BC59874">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE12" id="BFB5AC86-8038-3934-E1B8-B40257827AD9">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE13" id="3E0412B5-AAED-AC95-051A-C43E02B3AEAE">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE14" id="3D2001FF-F9E9-5BAC-7001-B075D24AD886">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE15" id="3329423F-54AD-8748-09FA-E0902305867A">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE16" id="5DCDCD46-C7E4-565E-9DC3-81A9A6DF4882">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE17" id="DF910B46-2551-3816-3772-07530701215A">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE18" id="B71D9219-110D-9794-F1B4-8C9C349BD9EE">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE19" id="E1342B9B-E50E-B3E6-8661-950E04543960">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE20" id="00396FC6-D561-7AC5-8A21-E81856CECDF6">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE21" id="FF3C74BB-CC89-6B3A-7B26-B735B535F12D">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE22" id="F170F868-BAA8-C595-CAAE-DFFF0D0E6CED">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE23" id="09CDE485-D39A-C6EE-2882-98869284E241">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE24" id="59A05221-E097-C5ED-12EE-40AB72627443">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE25" id="9B8737A5-0697-F271-72CE-C1FFC5C007B9">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE26" id="17AC531D-59B7-0E02-1BB3-071AE3970625">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE27" id="07134AC9-8E96-27E7-4FFE-4F9C66B6737C">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE28" id="0E0B079C-9909-B31C-D34D-FA594B34556A">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE29" id="28917887-86F4-B733-AD60-355BA31DA092">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE30" id="6992AF76-62AA-6431-B984-20792C73BCEC">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="3353CC2D-B762-8DF4-E13F-761EF6E53B8F">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_CREATION_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="CREATED_BY" id="BC3666E3-35FC-F13C-7626-C174EF25D8E6">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_CREATED_BY_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATE_LOGIN" id="9A3A9DC3-497D-A143-7400-ABD540B1EF4A">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_LAST_UPDATE_LOGIN_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="57A787CB-279C-C8B5-78A8-2CA3ACEE45B7">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_LAST_UPDATE_DATE_NNC</notNullConstraintName>
+</Column>
+<Column name="LAST_UPDATED_BY" id="EA4E5407-9586-E7B8-EFFD-9A31DA6C6381">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:20:36 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>XFSP_LAST_UPDATED_BY_NNC</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="543AA3A1-1F30-CCDC-AA75-D12C046DF2BB" name="XFO_OBJECT_ID_PK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 20:28:40 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C5032DF-3439-3B53-BB6B-DF2AC5FD156D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B2EA2CC-F42D-6881-3430-FBC18C781666" name="XFO_TECH_USES_ID_FK">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-05 21:06:19 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CBD68C0-62FE-2EC3-659B-248DE6252BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

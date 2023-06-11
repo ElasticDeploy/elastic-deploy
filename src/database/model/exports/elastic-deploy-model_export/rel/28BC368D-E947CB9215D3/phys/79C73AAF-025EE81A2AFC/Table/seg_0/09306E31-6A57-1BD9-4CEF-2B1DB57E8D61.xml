@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="XXED_FND_TECHNOLOGIES" directorySegmentName="seg_0" id="09306E31-6A57-1BD9-4CEF-2B1DB57E8D61">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<schemaObject>1ECBC7B7-C7D0-5EBD-728D-C054B6438123</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ATTRIBUTE23" id="03AC7B7E-7FBE-C6AC-7AFA-F8758632D586">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE22" id="05C38FB1-04DE-94D5-0856-2DA53303B146">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE1" id="0BE50F1F-04C3-4EFF-B586-85C48DC89E17">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE4" id="18466304-5AAA-793E-3DA5-9C06BFB3206E">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE15" id="1E15C8A4-75F1-D585-73B5-E95F014990FB">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE11" id="204F6281-25D9-0C2D-E312-B12DC4AA38A1">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROGRAM_APPLICATION_ID" id="20A46125-94C0-7FA7-962E-C9D28E206D38">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE29" id="32ADBE23-2F3B-2604-BD4A-2EB57D0518BD">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_NUMBER" id="3C98D489-53DC-388F-9AC7-01F381C406F6">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE19" id="42BC622A-7A54-1560-D6FD-0FDA3598799C">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE26" id="46943D5C-B5B9-5B5C-5C5C-9FD5502F1F5C">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE25" id="469ED558-A878-B63E-0E4B-3A6E955EB2A7">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE7" id="4AEAF6A8-73AC-6B9C-F5F3-7B1C25BFC528">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE9" id="512AEF08-C6BE-99BD-33AF-F35611FC26F9">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQUEST_ID" id="53B40316-EBD8-EAF8-E925-04118DC5D796">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE5" id="604D2560-8530-361E-09C8-5FA5D59F7398">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TECHNOLOGY_ID" id="6F2396F0-E653-A1DC-2BFA-F1C7B2B131B0">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE24" id="70B1D6B2-2EB3-384D-3FBE-D732C2000B9D">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE3" id="734A7048-2878-456A-68D5-B607D713BE1C">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE6" id="745CDF6E-1DE3-16B6-B754-0BF7CF7EB920">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE21" id="820A3345-4F5D-C31C-2AC2-5CD45B4DD4CA">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE20" id="84E1B5AC-0D7F-77EC-F029-7804145F9004">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_LOGIN" id="86856EF5-8609-DFB1-1797-AEB812DD0D08">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="87C26076-79A0-B4B4-80B7-7CEC3E36011A">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE16" id="A36487B9-767E-4992-A0B8-699B6D8F6F4F">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="A7E3B42E-5B6D-AF4B-218E-F668520B1A0A">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROGRAM_UPDATE_DATE" id="ADC5B685-1572-411A-FB26-DF0D76C8FB37">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="B04FB994-93FE-AC4F-8C3C-700027BAD51A">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE27" id="BDAE065C-A8BA-6F3E-6B04-8A605EA7853C">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE18" id="CA738C06-B5E3-3C5F-1FB4-B782A29ED877">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROGRAM_ID" id="CE420EC0-9BC3-38E0-5CEF-A71B50CB1C45">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="CF297E94-156A-3BD3-466C-7F580D5C35B5">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTERNAL_NAME" id="D1BF4A58-35FC-9A14-A361-5365BA03A7B3">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENABLED_FLAG" id="D3B26E9D-C5AA-AE31-F194-E1D3734CA84C">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE8" id="D7447E98-53B8-1E92-EF86-71ADC93A973D">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="DA521BDE-5F00-5C56-CC66-0590B7946B2F">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="E33269C7-1F3B-24A6-045D-DB52DFA54732">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="E750BCCD-9944-99DD-6DC8-F5F0618AEDCF">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE12" id="EC8DD01E-1403-D174-CE8F-7E3E69550132">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE14" id="EE2BA18F-5710-0691-A2B8-89E5202CCCB4">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE30" id="EEE2954D-4F45-6A78-80EA-F02C5F5DD950">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCESS_LEVEL" id="EF8565C6-3082-7A70-FFBD-5AB22756D0A1">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="F0A04A0A-5FFE-757D-F2E6-2859EC341BD4">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE2" id="F272FFA7-F38B-FC0B-538B-591DD29C285D">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE_CATEGORY" id="F925C783-BBCB-B1DB-2E99-06A311454293">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE13" id="FD5583B4-B9CA-7099-DBA7-A4702B6FB65F">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE28" id="FD98AA44-4CF3-AF2F-5C53-7DE28794F7BC">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE17" id="FFFD0704-44DF-49DE-621F-339A519E8D48">
+<createdBy>demasy</createdBy>
+<createdTime>2022-09-28 21:17:13 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="XFT_TECHNOLOGY_ID_PK" id="2AB8427F-6E3C-1F25-B5FE-031EDAAB29D1">
+<createdBy>demasy</createdBy>
+<createdTime>2019-09-22 08:54:23 UTC</createdTime>
+<ownerDesignName>elastic-deploy-model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
