@@ -1,1 +1,7 @@
 .DS_Store
+\src\server\OAF\jdev\myclasses
+\src\server\OAF\jdev\myhtml
+\src\server\OAF\jdev\system
+\src\server\OAF\jdev\dbc_files
+\src\server\OAF\jdev\oa_version.txt
+\src\server\OAF\jdev\JDEV.bat
