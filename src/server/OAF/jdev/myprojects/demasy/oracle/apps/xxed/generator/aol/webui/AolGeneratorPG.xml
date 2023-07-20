@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<page xmlns:jrad="http://xmlns.oracle.com/jrad" xmlns:oa="http://xmlns.oracle.com/oa" xmlns:ui="http://xmlns.oracle.com/uix/ui" version="10.1.3_" xml:lang="en-US" xmlns:user="http://xmlns.oracle.com/jrad/user" xmlns="http://xmlns.oracle.com/jrad" file-version="$Header$">
+   <content>
+      <oa:pageLayout id="PageLayoutRN" amDefName="demasy.oracle.apps.xxed.deploy.server.ElasticDeployAM" windowTitle="Elastic Code Generator" title="Elastic Code Generator">
+         <ui:corporateBranding>
+            <oa:image id="corporateBrandingImage" source="/OA_MEDIA/FNDSSCORP.gif"/>
+         </ui:corporateBranding>
+         <ui:inContextBranding>
+            <oa:formattedText id="item1" labelTitle="Elastic Code Generator ~ By Demasy" text="Elastic Code Generator ~ By Demasy" shortDesc="Elastic Code Generator ~ By Demasy"/>
+         </ui:inContextBranding>
+         <ui:productBranding>
+            <oa:formattedText id="item2" labelTitle="Elastic Deploy" text="Elastic Deploy" shortDesc="Elastic Deploy"/>
+         </ui:productBranding>
+         <ui:contents>
+            <oa:tableLayout id="InstructionsTableRN" hAlign="start">
+               <ui:contents>
+                  <oa:rowLayout id="InstructionsRN">
+                     <ui:contents>
+                        <oa:cellFormat id="InstructionsCellRN">
+                           <ui:contents>
+                              <oa:messageStyledText id="PageInstructions" tipType="shortTip" tipMessageAppShortName="XXR" tipMessageName="XXED_FND_GEN_AOL_SEARCH_INS" shortDesc="Page Instructions" inlineStyle="OraInstructionText"/>
+                           </ui:contents>
+                        </oa:cellFormat>
+                     </ui:contents>
+                  </oa:rowLayout>
+               </ui:contents>
+            </oa:tableLayout>
+            <oa:spacer id="TopSpacer" height="30"/>
+            <oa:header id="MainRN" text="Oracle AOL Components">
+               <ui:contents>
+                  <oa:tip id="ObjectColumnInstructions" tipMessageAppShortName="XXED" tipMessageName="XXED_FND_GEN_AOL_SEARCH_TIP" styleClass="OraErrorNameText"/>
+                  <oa:messageComponentLayout id="SearchCriteriaRN" searchRegion="true">
+                     <ui:contents>
+                        <oa:messageLayout id="ApplicationLayoutRN" prompt="Application">
+                           <ui:contents>
+                              <oa:rowLayout id="ApplicationRowRN" hAlign="start">
+                                 <ui:contents>
+                                    <oa:messageLovInput id="ApplicationShortName" shortDesc="Application Short Name" columns="5" externalListOfValues="/demasy/oracle/apps/xxed/core/lov/webui/ApplicationsLovRN">
+                                       <lovMappings>
+                                          <lovMap id="lovMap1" lovItem="ApplicationShortName" resultTo="ApplicationShortName" criteriaFrom="ApplicationShortName"/>
+                                          <lovMap id="lovMap11" lovItem="ApplicationName" resultTo="ApplicationName" criteriaFrom="ApplicationName"/>
+                                       </lovMappings>
+                                    </oa:messageLovInput>
+                                    <oa:messageStyledText id="ApplicationName" shortDesc="Application Name"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:contents>
+                        </oa:messageLayout>
+                        <oa:messageTextInput id="ComponentTypeSearchCriteria" prompt="Type" shortDesc="Component Type"/>
+                        <oa:messageTextInput id="ShortNameSearchCriteria" prompt="Short Name" shortDesc="Short Name"/>
+                        <oa:messageTextInput id="ComponentNameSearchCriteria" prompt="Name" shortDesc="Component Name"/>
+                        <oa:messageLayout id="IncludesLayout" prompt="Includes" rendered="false">
+                           <ui:contents>
+                              <oa:messageComponentLayout id="IncludesRowLayoutRN">
+                                 <ui:contents>
+                                    <oa:messageCheckBox id="ShowCustomComponents" shortDesc="Show All Custom Components" dataType="NUMBER" text="Show All Custom Components" prompt="Show All Custom Components"/>
+                                    <oa:messageCheckBox id="ShowCustomComponents1" shortDesc="Show All Custom Components" dataType="NUMBER" text="Show All Custom Components" prompt="Show All Custom Components"/>
+                                 </ui:contents>
+                              </oa:messageComponentLayout>
+                           </ui:contents>
+                        </oa:messageLayout>
+                        <oa:messageLayout id="MoreCriteriaLayoutRN">
+                           <ui:contents>
+                              <oa:hideShow id="MoreCriteriaRN" shortDesc="XX" disclosed="false" disclosedText="Hide More Criteria" undisclosedText="Show More Criteria">
+                                 <ui:contents>
+                                    <oa:messageComponentLayout id="MoreCriteriaComponentRN" searchRegion="true">
+                                       <ui:contents>
+                                          <oa:messageLayout id="LastUpdatedDateLayout" prompt="Last Updated Date">
+                                             <ui:contents>
+                                                <oa:rowLayout id="LastUpdatedDateRowRN" hAlign="start">
+                                                   <ui:contents>
+                                                      <oa:messageTextInput id="TransactionDateFrom" shortDesc="Transaction Date" dataType="DATE" tipType="dateFormat"/>
+                                                      <oa:messageTextInput id="TransactionDateTo" prompt="-" shortDesc="Transaction Date" dataType="DATE" tipType="dateFormat"/>
+                                                   </ui:contents>
+                                                </oa:rowLayout>
+                                             </ui:contents>
+                                          </oa:messageLayout>
+                                          <oa:messageLayout id="CreatedDateLayoutRN" prompt="Created Date">
+                                             <ui:contents>
+                                                <oa:rowLayout id="CreatedDateRowRN" hAlign="start">
+                                                   <ui:contents>
+                                                      <oa:messageTextInput id="InvoiceDateFromSearchCriteria" shortDesc="Invoice Date" dataType="DATE" tipType="dateFormat"/>
+                                                      <oa:messageTextInput id="InvoiceDateToSearchCriteria" prompt="-" shortDesc="Transaction Date" dataType="DATE" tipType="dateFormat"/>
+                                                   </ui:contents>
+                                                </oa:rowLayout>
+                                             </ui:contents>
+                                          </oa:messageLayout>
+                                       </ui:contents>
+                                    </oa:messageComponentLayout>
+                                 </ui:contents>
+                              </oa:hideShow>
+                           </ui:contents>
+                        </oa:messageLayout>
+                     </ui:contents>
+                     <ui:footer>
+                        <oa:flowLayout id="SearchCriteriaFooterRN">
+                           <ui:contents>
+                              <oa:button id="Search" text="Search" prompt="Search" shortDesc="Search">
+                                 <ui:primaryClientAction>
+                                    <ui:fireAction event="search" id="fireAction1"/>
+                                 </ui:primaryClientAction>
+                              </oa:button>
+                              <oa:button id="Clear" text="Clear" prompt="Clear" shortDesc="Clear">
+                                 <ui:primaryClientAction>
+                                    <ui:fireAction event="clear" id="fireAction2"/>
+                                 </ui:primaryClientAction>
+                              </oa:button>
+                           </ui:contents>
+                        </oa:flowLayout>
+                     </ui:footer>
+                  </oa:messageComponentLayout>
+                  <oa:header id="SearchResultHeaderRN" text="Result">
+                     <ui:contents>
+                        <oa:tip id="ObjectColumnInstructions1" tipMessageAppShortName="XXED" tipMessageName="XXED_FND_GEN_AOL_SEARCH_TIP" styleClass="OraErrorNameText"/>
+                        <oa:advancedTable id="TableObjectsResultRN" width="100%" alternateText="No transaction" enableUserControlOnColumns="false" colResizeEnabled="false" colReorderEnabled="false" columnHideShowEnabled="false" adminCustomizable="false" shortDesc="Database Objects Result Table">
+                           <ui:contents>
+                              <oa:columnGroup id="SchemaColumnGroup">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="sortableHeader25" prompt="Components" shortDesc="Components"/>
+                                 </ui:columnHeader>
+                                 <ui:contents>
+                                    <oa:column id="ApplicationNameColumn" width="15%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="ApplicationNameHeader" prompt="Application Name" shortDesc="Application Name"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="ComponentTypeColumn" width="10%">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="ComponentTypeHeader" prompt="Component Type" shortDesc="Component Type"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="ComponentShortNameColumn" width="15%">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="ShortNameHeader" prompt="Short Name" shortDesc="Short Name"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="ComponentNameColumn" width="15%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="ComponentNameHeader" prompt="Name" shortDesc="Name"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="ComponentDescriptionColumn" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="ComponentDescriptionHeader" prompt="Description" shortDesc="Description"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="LastUpdatedDateColumn" width="5%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="LastUpdatedDateHeader" prompt="Last Updated Date" shortDesc="Last Updated Date"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                 </ui:contents>
+                              </oa:columnGroup>
+                              <oa:columnGroup id="FndloadScriptGroup">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="FndloadScriptHeader" prompt="FNDLOAD Script" shortDesc="FNDLOAD Script"/>
+                                 </ui:columnHeader>
+                                 <ui:contents>
+                                    <oa:column id="DownloadColumn" width="5%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="DownloadHeader" prompt="Download" shortDesc="Download"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="UploadColumn" width="5%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="UploadHeader" prompt="Upload" shortDesc="Upload"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                 </ui:contents>
+                              </oa:columnGroup>
+                           </ui:contents>
+                           <ui:tableActions>
+                              <oa:rowLayout id="region33">
+                                 <ui:contents>
+                                    <oa:messageTextInput id="Actions" prompt="Actions" shortDesc="Actions" placeholder="Actions"/>
+                                    <oa:submitButton id="item3122" text="Go" prompt="Go"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:tableActions>
+                        </oa:advancedTable>
+                     </ui:contents>
+                  </oa:header>
+               </ui:contents>
+            </oa:header>
+         </ui:contents>
+      </oa:pageLayout>
+   </content>
+</page>
