@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oa:listOfValues version="10.1.3_" xml:lang="en-US" xmlns:oa="http://xmlns.oracle.com/oa" xmlns:jrad="http://xmlns.oracle.com/jrad" xmlns:ui="http://xmlns.oracle.com/uix/ui" xmlns:user="http://xmlns.oracle.com/jrad/user" xmlns="http://xmlns.oracle.com/jrad" file-version="$Header$" amDefName="demasy.oracle.apps.xxed.core.lov.server.CoreLovAM" scope="/">
+   <ui:contents>
+      <oa:table name="ApplicationsLovRN" id="ApplicationsLovRN">
+         <ui:contents>
+            <oa:formValue id="ApplicationId" dataType="NUMBER" prompt="ApplicationId" viewName="ApplicationsLovVO1" viewAttr="ApplicationId"/>
+            <oa:messageStyledText id="ApplicationShortName" dataType="VARCHAR2" prompt="Short Name" viewName="ApplicationsLovVO1" viewAttr="ApplicationShortName" maximumLength="50" shortDesc="Short Name" queryable="true"/>
+            <oa:messageStyledText id="ApplicationName" dataType="VARCHAR2" prompt="Name" viewName="ApplicationsLovVO1" viewAttr="ApplicationName" maximumLength="240" shortDesc="Name" queryable="true"/>
+         </ui:contents>
+      </oa:table>
+   </ui:contents>
+</oa:listOfValues>

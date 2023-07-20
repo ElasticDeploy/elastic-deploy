@@ -1,0 +1,232 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<page xmlns:jrad="http://xmlns.oracle.com/jrad" xmlns:oa="http://xmlns.oracle.com/oa" xmlns:ui="http://xmlns.oracle.com/uix/ui" version="10.1.3_" xml:lang="en-US" xmlns:user="http://xmlns.oracle.com/jrad/user" xmlns="http://xmlns.oracle.com/jrad" file-version="$Header$">
+   <content>
+      <oa:pageLayout id="PageLayoutRN" amDefName="mod.oracle.apps.pay.invoices.server.TransactionsSearchAM" windowTitle="Payroll Invoices" title="Payroll Invoices: Search">
+         <ui:corporateBranding>
+            <oa:image id="corporateBrandingImage" source="/OA_MEDIA/FNDSSCORP.gif"/>
+         </ui:corporateBranding>
+         <ui:inContextBranding>
+            <oa:formattedText id="item1" labelTitle="Payroll Invoices" text="Payroll Invoices" shortDesc="Payroll Invoices"/>
+         </ui:inContextBranding>
+         <ui:productBranding>
+            <oa:formattedText id="item2" labelTitle="Payroll Invoices" text="Payroll Invoices"/>
+         </ui:productBranding>
+         <ui:contents>
+            <oa:tableLayout id="InstructionsTableRN" hAlign="start">
+               <ui:contents>
+                  <oa:rowLayout id="InstructionsRN">
+                     <ui:contents>
+                        <oa:cellFormat id="InstructionsCellRN">
+                           <ui:contents>
+                              <oa:messageStyledText id="PageInstructions" tipType="shortTip" tipMessageAppShortName="XXR" tipMessageName="XXR_APPL_PAGE_INS" shortDesc="Page Instructions" inlineStyle="OraInstructionText"/>
+                           </ui:contents>
+                        </oa:cellFormat>
+                     </ui:contents>
+                  </oa:rowLayout>
+               </ui:contents>
+            </oa:tableLayout>
+            <oa:spacer id="TopSpacer" height="30"/>
+            <oa:header id="MainRN" text="Search">
+               <ui:contents>
+                  <oa:tableLayout id="region34" hAlign="center" width="100%">
+                     <ui:contents>
+                        <oa:rowLayout id="region35" hAlign="end" vAlign="top">
+                           <ui:contents>
+                              <oa:cellFormat id="region36" hAlign="end" vAlign="top">
+                                 <ui:contents>
+                                    <oa:button id="item31225" text="Search by Payroll Type" prompt="Search by Payroll Type" shortDesc="Search by Payroll Type"/>
+                                 </ui:contents>
+                              </oa:cellFormat>
+                           </ui:contents>
+                        </oa:rowLayout>
+                     </ui:contents>
+                  </oa:tableLayout>
+                  <oa:tip id="ObjectColumnInstructions" tipMessageAppShortName="MOD" tipMessageName="MOD_PAY_NEW_TRX_INS" styleClass="OraErrorNameText"/>
+                  <oa:messageComponentLayout id="SearchCriteriaRN" searchRegion="true">
+                     <ui:contents>
+                        <oa:messageTextInput id="item3" prompt="Transaction Num" shortDesc="Transaction Number"/>
+                        <oa:messageTextInput id="item32" prompt="Invoice Number" shortDesc="Invoice Number"/>
+                        <oa:messageTextInput id="item321" prompt="Category" shortDesc="Category"/>
+                        <oa:messageLayout id="messageLayout12" prompt="Amount">
+                           <ui:contents>
+                              <oa:rowLayout id="region37" hAlign="start">
+                                 <ui:contents>
+                                    <oa:messageTextInput id="item3112" shortDesc="Transaction Date" dataType="NUMBER"/>
+                                    <oa:messageTextInput id="item31226" prompt="-" shortDesc="Transaction Date" dataType="NUMBER"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:contents>
+                        </oa:messageLayout>
+                        <oa:messageLayout id="messageLayout1" prompt="Transaction Date">
+                           <ui:contents>
+                              <oa:rowLayout id="region3" hAlign="start">
+                                 <ui:contents>
+                                    <oa:messageTextInput id="item311" shortDesc="Transaction Date" dataType="DATE" tipType="dateFormat"/>
+                                    <oa:messageTextInput id="item312" prompt="-" shortDesc="Transaction Date" dataType="DATE" tipType="dateFormat"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:contents>
+                        </oa:messageLayout>
+                        <oa:messageLayout id="messageLayout11" prompt="Invoice Date">
+                           <ui:contents>
+                              <oa:rowLayout id="region31" hAlign="start">
+                                 <ui:contents>
+                                    <oa:messageTextInput id="item3111" shortDesc="Invoice Date" dataType="DATE" tipType="dateFormat"/>
+                                    <oa:messageTextInput id="item3121" prompt="-" shortDesc="Transaction Date" dataType="DATE" tipType="dateFormat"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:contents>
+                        </oa:messageLayout>
+                        <oa:messageTextInput id="Status" prompt="Status" shortDesc="Status"/>
+                        <oa:messageLayout id="messageLayout13">
+                           <ui:contents>
+                              <oa:hideShow id="region38" shortDesc="XX" disclosed="false" disclosedText="Hide More Criteria" undisclosedText="Show More Criteria">
+                                 <ui:contents>
+                                    <oa:messageComponentLayout id="region39" searchRegion="true">
+                                       <ui:contents>
+                                          <oa:messageLayout id="messageLayout121" prompt="Amount">
+                                             <ui:contents>
+                                                <oa:rowLayout id="region371" hAlign="start">
+                                                   <ui:contents>
+                                                      <oa:messageTextInput id="item31121" shortDesc="Transaction Date" dataType="NUMBER"/>
+                                                      <oa:messageTextInput id="item312261" prompt="-" shortDesc="Transaction Date" dataType="NUMBER"/>
+                                                   </ui:contents>
+                                                </oa:rowLayout>
+                                             </ui:contents>
+                                          </oa:messageLayout>
+                                       </ui:contents>
+                                    </oa:messageComponentLayout>
+                                 </ui:contents>
+                              </oa:hideShow>
+                           </ui:contents>
+                        </oa:messageLayout>
+                     </ui:contents>
+                     <ui:footer>
+                        <oa:flowLayout id="region32">
+                           <ui:contents>
+                              <oa:button id="Search" text="Search" prompt="Search" shortDesc="Search">
+                                 <ui:primaryClientAction>
+                                    <ui:fireAction event="search" id="fireAction1"/>
+                                 </ui:primaryClientAction>
+                              </oa:button>
+                              <oa:button id="Clear" text="Clear" prompt="Clear" shortDesc="Clear">
+                                 <ui:primaryClientAction>
+                                    <ui:fireAction event="clear" id="fireAction2"/>
+                                 </ui:primaryClientAction>
+                              </oa:button>
+                           </ui:contents>
+                        </oa:flowLayout>
+                     </ui:footer>
+                  </oa:messageComponentLayout>
+                  <oa:advancedTable id="region1" width="100%" alternateText="No transaction" enableUserControlOnColumns="false" colResizeEnabled="false" colReorderEnabled="false" columnHideShowEnabled="false" adminCustomizable="false">
+                     <ui:contents>
+                        <oa:columnGroup id="columnGroup1">
+                           <ui:columnHeader>
+                              <oa:sortableHeader id="sortableHeader25" prompt="Transaction" shortDesc="Transaction"/>
+                           </ui:columnHeader>
+                           <ui:contents>
+                              <oa:column id="column13" width="7%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="sortableHeader23" prompt="Number" shortDesc="Transaction Number"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                              <oa:column id="column14" width="7%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="sortableHeader24" prompt="Date" shortDesc="Transaction Date"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                              <oa:column id="column15" width="10%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="CategoryHeader" prompt="Amount" shortDesc="Total Amount"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                              <oa:column id="column1513" width="10%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="CategoryHeader13" prompt="Category" shortDesc="Category"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                              <oa:column id="column1512" width="7%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="CategoryHeader12" prompt="Status" shortDesc="Status"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                              <oa:column id="column151" rendered="false" width="5%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="CategoryHeader1" prompt="Description" shortDesc="Description"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                           </ui:contents>
+                        </oa:columnGroup>
+                        <oa:columnGroup id="columnGroup3">
+                           <ui:columnHeader>
+                              <oa:sortableHeader id="sortableHeader27" prompt="Approval" shortDesc="Approval"/>
+                           </ui:columnHeader>
+                           <ui:contents>
+                              <oa:column id="column151211" width="7%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="CategoryHeader1211" prompt="Item Key" shortDesc="Workflow Item Key"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                              <oa:column id="column1511">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="CategoryHeader11" prompt="Approver" shortDesc="Approver"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                              <oa:column id="column15121" width="5%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="CategoryHeader121" prompt="Status" shortDesc="Status"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                           </ui:contents>
+                        </oa:columnGroup>
+                        <oa:columnGroup id="columnGroup2">
+                           <ui:columnHeader>
+                              <oa:sortableHeader id="sortableHeader26" shortDesc="Invoice" prompt="Invoice"/>
+                           </ui:columnHeader>
+                           <ui:contents>
+                              <oa:column id="column11" width="7%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="sortableHeader21" prompt="Number" shortDesc="Invoice Number"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                              <oa:column id="column1" width="7%">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="sortableHeader2" prompt="Date" shortDesc="Invoice Date"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                           </ui:contents>
+                        </oa:columnGroup>
+                        <oa:column id="UpdateColumn1" width="3%" columnDataFormat="iconButtonFormat">
+                           <ui:columnHeader>
+                              <oa:sortableHeader id="EntityGroupUpdateHeader1" prompt="History" shortDesc="Approval History"/>
+                           </ui:columnHeader>
+                        </oa:column>
+                        <oa:column id="UpdateColumn" width="3%" columnDataFormat="iconButtonFormat">
+                           <ui:columnHeader>
+                              <oa:sortableHeader id="EntityGroupUpdateHeader" prompt="Update" shortDesc="Update"/>
+                           </ui:columnHeader>
+                        </oa:column>
+                        <oa:column id="DetailsColumn" width="3%" columnDataFormat="iconButtonFormat">
+                           <ui:columnHeader>
+                              <oa:sortableHeader id="EntityGroupDetailsHeader" prompt="Details" shortDesc="Details"/>
+                           </ui:columnHeader>
+                        </oa:column>
+                     </ui:contents>
+                     <ui:tableActions>
+                        <oa:rowLayout id="region33">
+                           <ui:contents>
+                              <oa:submitButton id="item31221" text="Create Transaction" prompt="Create Transaction" shortDesc="Create Transaction"/>
+                              <oa:separator id="item31223"/>
+                              <oa:spacer id="item31224"/>
+                              <oa:messageTextInput id="Actions" prompt="Actions" shortDesc="Actions" placeholder="Actions"/>
+                              <oa:submitButton id="item3122" text="Go" prompt="Go"/>
+                           </ui:contents>
+                        </oa:rowLayout>
+                     </ui:tableActions>
+                  </oa:advancedTable>
+               </ui:contents>
+            </oa:header>
+         </ui:contents>
+      </oa:pageLayout>
+   </content>
+</page>

@@ -1,0 +1,245 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<page xmlns:jrad="http://xmlns.oracle.com/jrad" xmlns:oa="http://xmlns.oracle.com/oa" xmlns:ui="http://xmlns.oracle.com/uix/ui" version="10.1.3_" xml:lang="en-US" xmlns:user="http://xmlns.oracle.com/jrad/user" xmlns="http://xmlns.oracle.com/jrad" file-version="$Header$">
+   <content>
+      <oa:pageLayout id="PageLayoutRN" amDefName="demasy.oracle.apps.xxed.deploy.server.ElasticDeployAM" windowTitle="Elastic Code Generator" title="Elastic Code Generator">
+         <ui:corporateBranding>
+            <oa:image id="corporateBrandingImage" source="/OA_MEDIA/FNDSSCORP.gif"/>
+         </ui:corporateBranding>
+         <ui:inContextBranding>
+            <oa:formattedText id="item1" labelTitle="Elastic Code Generator ~ By Demasy" text="Elastic Code Generator ~ By Demasy" shortDesc="Elastic Code Generator ~ By Demasy"/>
+         </ui:inContextBranding>
+         <ui:productBranding>
+            <oa:formattedText id="item2" labelTitle="Elastic Deploy" text="Elastic Deploy" shortDesc="Elastic Deploy"/>
+         </ui:productBranding>
+         <ui:contents>
+            <oa:tableLayout id="InstructionsTableRN" hAlign="start">
+               <ui:contents>
+                  <oa:rowLayout id="InstructionsRN">
+                     <ui:contents>
+                        <oa:cellFormat id="InstructionsCellRN">
+                           <ui:contents>
+                              <oa:messageStyledText id="PageInstructions" tipType="shortTip" tipMessageAppShortName="XXR" tipMessageName="XXR_APPL_PAGE_INS" shortDesc="Page Instructions" inlineStyle="OraInstructionText"/>
+                           </ui:contents>
+                        </oa:cellFormat>
+                     </ui:contents>
+                  </oa:rowLayout>
+               </ui:contents>
+            </oa:tableLayout>
+            <oa:spacer id="TopSpacer" height="30"/>
+            <oa:header id="MainRN" text="Database Object: Tables">
+               <ui:contents>
+                  <oa:tip id="ObjectColumnInstructions" tipMessageAppShortName="MOD" tipMessageName="MOD_PAY_NEW_TRX_INS" styleClass="OraErrorNameText"/>
+                  <oa:messageComponentLayout id="SearchCriteriaRN" searchRegion="true">
+                     <ui:contents>
+                        <oa:messageTextInput id="Schema" prompt="Schema" shortDesc="Schema"/>
+                        <oa:messageTextInput id="TableName" prompt="Table Name" shortDesc="Table Name"/>
+                        <oa:messageTextInput id="Status" prompt="Status" shortDesc="Status"/>
+                        <oa:messageLayout id="messageLayout121" prompt="APPS Schema">
+                           <ui:contents>
+                              <oa:rowLayout id="region371" hAlign="start">
+                                 <ui:contents>
+                                    <oa:messageCheckBox id="item31121" shortDesc="APPS Synonym" dataType="NUMBER" text="Synonym" prompt="Synonym"/>
+                                    <oa:messageCheckBox id="item312261" prompt="Grant" shortDesc="APPS Grant" dataType="NUMBER" text="Grant"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:contents>
+                        </oa:messageLayout>
+                        <oa:messageLayout id="messageLayout12111" prompt="Table Handler">
+                           <ui:contents>
+                              <oa:rowLayout id="region37111" hAlign="start">
+                                 <ui:contents>
+                                    <oa:messageCheckBox id="item3112111" shortDesc="Package Created" dataType="NUMBER" text="Package Created" prompt="Package Created"/>
+                                    <oa:messageCheckBox id="item31121111" shortDesc="Sequence Created" dataType="NUMBER" text="Sequence Created" prompt="Sequence Created"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:contents>
+                        </oa:messageLayout>
+                        <oa:messageLayout id="messageLayout1211" prompt="Application">
+                           <ui:contents>
+                              <oa:rowLayout id="region3711" hAlign="start">
+                                 <ui:contents>
+                                    <oa:messageCheckBox id="item311211" shortDesc="Table Registered" dataType="NUMBER" text="Table Registered" prompt="Table Registered"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:contents>
+                        </oa:messageLayout>
+                        <oa:messageLayout id="messageLayout12112" prompt="Defects">
+                           <ui:contents>
+                              <oa:rowLayout id="region371121" hAlign="start">
+                                 <ui:contents>
+                                    <oa:messageCheckBox id="NamingConvention" shortDesc="Naming Convention" dataType="NUMBER" text="Naming Convention" prompt="Naming Convention"/>
+                                    <oa:messageCheckBox id="WhoColumns" shortDesc="WHO Columns" dataType="NUMBER" text="WHO Columns" prompt="WHO Columns"/>
+                                    <oa:messageCheckBox id="ConcurrentColumns" shortDesc="Concurrent Columns" dataType="NUMBER" text="Concurrent Columns" prompt="Concurrent Columns"/>
+                                    <oa:messageCheckBox id="DffAttributes" shortDesc="DFF Attributes" dataType="NUMBER" text="DFF Attributes" prompt="DFF Attributes"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:contents>
+                        </oa:messageLayout>
+                        <oa:messageLayout id="messageLayout13">
+                           <ui:contents>
+                              <oa:hideShow id="region38" shortDesc="XX" disclosed="false" disclosedText="Hide More Criteria" undisclosedText="Show More Criteria">
+                                 <ui:contents>
+                                    <oa:messageComponentLayout id="region39" searchRegion="true">
+                                       <ui:contents>
+                                          <oa:messageLayout id="messageLayout1" prompt="Last Updated Date">
+                                             <ui:contents>
+                                                <oa:rowLayout id="region3" hAlign="start">
+                                                   <ui:contents>
+                                                      <oa:messageTextInput id="item311" shortDesc="Transaction Date" dataType="DATE" tipType="dateFormat"/>
+                                                      <oa:messageTextInput id="item312" prompt="-" shortDesc="Transaction Date" dataType="DATE" tipType="dateFormat"/>
+                                                   </ui:contents>
+                                                </oa:rowLayout>
+                                             </ui:contents>
+                                          </oa:messageLayout>
+                                          <oa:messageLayout id="messageLayout11" prompt="Created Date">
+                                             <ui:contents>
+                                                <oa:rowLayout id="region31" hAlign="start">
+                                                   <ui:contents>
+                                                      <oa:messageTextInput id="item3111" shortDesc="Invoice Date" dataType="DATE" tipType="dateFormat"/>
+                                                      <oa:messageTextInput id="item3121" prompt="-" shortDesc="Transaction Date" dataType="DATE" tipType="dateFormat"/>
+                                                   </ui:contents>
+                                                </oa:rowLayout>
+                                             </ui:contents>
+                                          </oa:messageLayout>
+                                       </ui:contents>
+                                    </oa:messageComponentLayout>
+                                 </ui:contents>
+                              </oa:hideShow>
+                           </ui:contents>
+                        </oa:messageLayout>
+                     </ui:contents>
+                     <ui:footer>
+                        <oa:flowLayout id="region32">
+                           <ui:contents>
+                              <oa:button id="Search" text="Search" prompt="Search" shortDesc="Search">
+                                 <ui:primaryClientAction>
+                                    <ui:fireAction event="search" id="fireAction1"/>
+                                 </ui:primaryClientAction>
+                              </oa:button>
+                              <oa:button id="Clear" text="Clear" prompt="Clear" shortDesc="Clear">
+                                 <ui:primaryClientAction>
+                                    <ui:fireAction event="clear" id="fireAction2"/>
+                                 </ui:primaryClientAction>
+                              </oa:button>
+                           </ui:contents>
+                        </oa:flowLayout>
+                     </ui:footer>
+                  </oa:messageComponentLayout>
+                  <oa:header id="region371122">
+                     <ui:contents>
+                        <oa:advancedTable id="TableObjectsResultRN" width="100%" alternateText="No transaction" enableUserControlOnColumns="false" colResizeEnabled="false" colReorderEnabled="false" columnHideShowEnabled="false" adminCustomizable="false" shortDesc="Database Objects Result Table">
+                           <ui:contents>
+                              <oa:columnGroup id="SchemaColumnGroup">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="sortableHeader25" prompt="Table Object" shortDesc="Database Table Object"/>
+                                 </ui:columnHeader>
+                                 <ui:contents>
+                                    <oa:column id="SchemaColumn" width="5%">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="SchemaHeader" prompt="Schema" shortDesc="Schema"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="TableNameColumn">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="TableNameHeader" prompt="Table Name" shortDesc="Table Name"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="LengthColumn" width="3%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="LengthHeader" prompt="Length" shortDesc="Length"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="StatusColumn" width="7%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="StatusHeader" prompt="Status" shortDesc="Status"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="LastUpdatedDateColumn" width="5%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="LastUpdatedDateHeader" prompt="Last Updated Date" shortDesc="Last Updated Date"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                 </ui:contents>
+                              </oa:columnGroup>
+                              <oa:columnGroup id="columnGroup111">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="APIsDetailsHeader1" prompt="Access to APPS" shortDesc="Access to APPS"/>
+                                 </ui:columnHeader>
+                                 <ui:contents>
+                                    <oa:column id="column13121" width="5%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="TableNameHeader121" prompt="Synonym" shortDesc="APPS Synonym?"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="column13131" width="5%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="TableNameHeader131" prompt="Grant" shortDesc="Grant to APPS?"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                 </ui:contents>
+                              </oa:columnGroup>
+                              <oa:columnGroup id="columnGroup1112">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="TableHandlerHeader" prompt="Table Handler" shortDesc="Table Handler"/>
+                                 </ui:columnHeader>
+                                 <ui:contents>
+                                    <oa:column id="column131212" width="15%">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="TableNameHeader1212" prompt="Package Name" shortDesc="Package Name"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="column1312" width="15%">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="TableNameHeader12" prompt="Sequence Name" shortDesc="Sequence Name"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                 </ui:contents>
+                              </oa:columnGroup>
+                              <oa:columnGroup id="columnGroup1111">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="APIsDetailsHeader11" prompt="Quality" shortDesc="Quality"/>
+                                 </ui:columnHeader>
+                                 <ui:contents>
+                                    <oa:column id="column131211" width="5%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="TableNameHeader1211" prompt="Defects" shortDesc="Defects"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="column131311" width="5%" columnDataFormat="iconButtonFormat">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="TableNameHeader1311" prompt="Data" shortDesc="Data"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                    <oa:column id="column1313" width="3%">
+                                       <ui:columnHeader>
+                                          <oa:sortableHeader id="TableNameHeader13" prompt="APP Registered" shortDesc="APP Registered"/>
+                                       </ui:columnHeader>
+                                    </oa:column>
+                                 </ui:contents>
+                              </oa:columnGroup>
+                              <oa:column id="DetailsColumn" width="3%" columnDataFormat="iconButtonFormat">
+                                 <ui:columnHeader>
+                                    <oa:sortableHeader id="EntityGroupDetailsHeader" prompt="Details" shortDesc="Details"/>
+                                 </ui:columnHeader>
+                              </oa:column>
+                           </ui:contents>
+                           <ui:tableActions>
+                              <oa:rowLayout id="region33">
+                                 <ui:contents>
+                                    <oa:submitButton id="item31221" text="Create Table Wizard" prompt="Create Table Wizard" shortDesc="Create Table Wizard"/>
+                                    <oa:separator id="item31223"/>
+                                    <oa:spacer id="item31224"/>
+                                    <oa:messageTextInput id="Actions" prompt="Actions" shortDesc="Actions" placeholder="Actions"/>
+                                    <oa:submitButton id="item3122" text="Go" prompt="Go"/>
+                                 </ui:contents>
+                              </oa:rowLayout>
+                           </ui:tableActions>
+                        </oa:advancedTable>
+                     </ui:contents>
+                  </oa:header>
+               </ui:contents>
+            </oa:header>
+         </ui:contents>
+      </oa:pageLayout>
+   </content>
+</page>
