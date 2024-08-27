@@ -7,4 +7,5 @@ The **Elastic Deploy** is the tool to assist Oracle application developers in im
 - Elastic Code Analysis
 - Elastic Code Review
 - Elastic Data Migration
+- Elastic Insights
 - Elastic Deploy
