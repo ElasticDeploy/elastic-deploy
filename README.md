@@ -8,7 +8,42 @@ With features ranging from intelligent code generation to proactive monitoring, 
 - Elastic Code
 - Elastic Guard
 - Elastic DataMover
-- Elastic Compare & Extract
+- Elastic Snapshot
 - Elastic Insights
 - Elastic Monitoring
 - Elastic CLI & API
+
+<br>
+
+
+## Elastic Deploy
+
+<br>
+
+## Elastic Code
+
+<br>
+
+## Elastic Guard
+
+<br>
+
+## Elastic DataMover
+
+<br>
+
+## Elastic Snapshot
+
+<br>
+
+## Elastic Insights
+
+<br>
+
+## Elastic Monitoring
+
+<br>
+
+## Elastic CLI & API
+
+<br>
